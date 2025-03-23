@@ -9,7 +9,6 @@ function onClick(info) {
             } 
         });
     } else if (info.menuItemId == "queryData") {
-        console.log("query");
         chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
             let pattern = "https://www.linkedin.com/jobs/";
             if (tabs[0].url.startsWith(pattern)) {
@@ -48,20 +47,3 @@ function queryData(jobId) {
       });
 }
 
-/*
-function downloadData(data, filename) {
-    // Create a Blob from the data
-    const blob = new Blob([data], { type: 'text/plain' });
-
-    // Create an object URL for the Blob
-    const url = URL.createObjectURL(blob);
-
-    // Use the downloads API to download the file
-    chrome.downloads.download({
-        url: url,
-        filename: filename,
-        saveAs: false
-    });
-}
-*/
-  
