@@ -1,0 +1,18 @@
+{
+  "name": "Job Posting Extensions",
+  "description": "Extract job info from page",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": ["contextMenus", "tabs", "storage", "downloads"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
