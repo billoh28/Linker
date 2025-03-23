@@ -19,6 +19,12 @@ Fairly self explanatory, checks if this job has been saved before, responding wi
 
 ![image](https://github.com/user-attachments/assets/798a878c-b370-4647-b497-fa49a23d9037)
 
+### Popup
+Saved jobs can be viewed by clicking the extension button on the browser toolbar and clicking the `Fetch Jobs` button
+
+![image](https://github.com/user-attachments/assets/fa678875-57cc-4b75-9301-6de5b0a3beb6)
+
+
 ## Installation (Only Chromium browsers supported)
 - Download the repo
 - Go to browser manage extensions page
