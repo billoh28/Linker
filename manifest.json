@@ -1,6 +1,6 @@
 {
-  "name": "Job Posting Extensions",
-  "description": "Extract job info from page",
+  "name": "Linker",
+  "description": "Record and track job info from page",
   "version": "1.0",
   "manifest_version": 2,
   "permissions": ["contextMenus", "tabs", "storage", "downloads"],
